@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+/*#info_box {
+	font-size: 14px;
+	background-color:#F5F5F5;
+	width: 60em;
+	height: 52.5em;
+	position:relative;
+	top: 0.9em;
+	left: 0em;
+	text-align:left;
+}*/
+/*-----------TOOL BOX------------------*/
+/*#toolBox {
+	border: 1px solid #000000;
+	font-size: 14px;
+	background-color:#333333;
+	width: 100%;
+	height: 2.1em;
+	position:relative;
+	top: 0;
+	left:0;
+	z-index: 10;
+}*/
+#backArrow{
+	background-image:url(../images/icons/go-previous-3.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#backArrowPos {
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 0.8em;
+}
+
+#saveIcon{
+	background-image:url(../images/icons/dialog-ok-3.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#saveIconPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 4em;;
+}
+#deleteIcon {
+	background-image: url(../images/icons/edit-delete-2.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float: left;
+}
+
+#deleteIconPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 7.2em;;
+}
+#klausurenPos{
+	font-size: 12px;
+	color: #000;
+	position: absolute;
+	height: 1.61em;
+	width: 11.6em;
+	text-align: center;
+	background-color: #D1D1D1;
+	top: 0.4em;
+	left: 13.9em;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#klausurenPos:hover{
+	background-color: #9E9E9E;
+	color: #fff;
+}
+#klausSpan{
+	position: relative;
+	top: 0.15em;
+}
+#numKlaus {
+	position: relative;
+	left: 27em;
+	top: 1.3em;
+	width: 1.7em;
+	font-size: 11px;
+	text-align: center;
+	background-color: #577CD4;
+	color: #fff;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	cursor: default;
+}
+
+/*--------------------------------------*/
+/*#mainBlock{
+	border: 1px solid #000000;
+	background-color:#F5F5F5;
+	width: 60em;
+	min-height: 50.35em;
+	font-size: 14px;
+	position:relative;
+	left:0;
+	top:0;
+
+}*/
+#authForm{
+	position: relative;
+	top: 1.5em;
+	/*left: 3em;*/
+	min-height: 50.35em;
+	font-size: 12px;
+	border-collapse: collapse;
+}
+#authForm td{
+	padding-bottom: 0.15em;
+	padding-top: 0.15em;
+}
+.trLight, .trLight2{
+	background: #F5F5F5;
+}
+.trDark, .trDark2{
+	background: #E1E1E1;
+}
+.trLast{
+	background: #F5F5F5;
+	border-top: thin solid #A3A3A3;
+}
+.leftBlock, .leftBlockComment{
+	width: 28em;
+	padding-left: 0.8em;
+}
+.leftBlockComment{
+	vertical-align:top;
+	padding-top: 0.4em !important;
+}
+.textInput{
+	width: 22em;
+}
+#s2id_anrede, #s2id_fb, #s2id_titel, #s2id_lizenz{
+	font-size: 12px !important;
+}
+.dropDown_anrede, .dropDown_fb, .dropDown_titel, .dropDown_lizenz{
+	font-size: 12px !important;
+}
+#comment{
+	font-size: 12px;
+	width: 293px;
+	height: 70px;
+}
+div.ui-datepicker{
+ font-size:12px;
+}
+.trLight:hover, .trDark:hover{
+	/*background: #6B6B6B;
+	color: #FFFFFF;*/
+	cursor: default;
+}
+.trLight2:hover, .trDark2:hover{
+	background: #6B6B6B;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+#horLine1{
+	font-size: 12px;
+	background-image: url(../images/icons/line-horizontal-gray.png);
+	background-size: 0.5em 2em;
+	width: 0.5em;
+	height: 2em;
+	position: absolute;
+	top: 0.2em;
+	left: 12em;;
+}
+#grayOut{
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background: #000;
+	filter:alpha(opacity=60); /* IE */
+    -moz-opacity:0.6; /* Mozilla */
+    opacity: 0.6; /* CSS3 */
+    z-index: 15;
+}
+#testFormWindow{
+	position: absolute;
+	top: 8em;
+	left: 14em;
+	background-color: #F5F5F5;
+	border: thin solid #000;
+	font-size: 12px;
+	z-index: 16;
+	width: 520px;
+	border: 2px solid #999999;
+	/*background-color: #e6e6e6;*/
+}
+#testTable{
+	position: relative;
+	border-collapse: collapse;
+	width: 450px;
+}
+
+#testDatum, 
+#testStart, 
+#testEnde, 
+#testName {
+	font-weight: bold;
+	border-bottom: thin solid #A3A3A3;
+	height: 25px;
+}
+#exitForm{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 35px;
+	text-align: center;
+	font-weight: bold;
+}
+#WinBorder{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	background-color: rgb(51, 51, 51);
+	text-align: left;
+}
+#WinHeadText{
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+	top: 0.3em;
+	left: 0.8em;
+}
+#sendButtons{
+	position: relative;
+	top: 0.5em;
+	
+}

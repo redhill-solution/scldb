@@ -1,0 +1,70 @@
+#Table{
+	border-collapse:collapse;
+	font-size: 12px;
+	position: relative;
+	top: 0em;
+	left: 0em;
+	max-width: 63em;
+}
+.TableTR,
+.TableTRAdd,
+.TableTRLight{
+	background: #F5F5F5;
+	height: 1.8em;
+}
+.TableTRDark{
+	background: #E1E1E1;
+	height: 1.8em;
+}
+.TableTRLight:hover,
+.TableTRDark:hover,
+.TableTRLight:hover a,
+.TableTRDark:hover a{
+	cursor:default;
+}
+.TableHeadings{
+	border-bottom:thin solid #000000;
+	height: 3em;
+}
+.TableHeadings a:hover{
+	text-decoration: underline;
+}
+.TableHeadings a{
+	font-weight: bold;
+}
+.Datum{
+	width: 6em;
+}
+.Startzeit,
+.Endzeit {
+	width: 6em;
+}
+.Klausurbezeichnung{
+	width: 12em;
+}
+.Dozent{
+	width: 9em;
+}
+.Fachbereich {
+	width: 12em;
+}
+.Aktion {
+	width: 8.5em;
+}
+.TableIDData{
+	height: 5em;
+	text-align: left;
+}
+.TableTRAdd{
+	border-top:thin solid #000000;
+}
+.Datum,
+.Startzeit,
+.Endzeit,
+.Klausurbezeichnung,
+.Dozent,
+.Fachbereich,
+.Aktion {
+	font-weight: bold;
+	cursor:default;
+}

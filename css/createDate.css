@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cbuttons{
+	position: absolute;
+	bottom: 1em;
+	left: 0;
+	width: 100%;
+}
+#grayBack{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	filter:alpha(opacity=60); /* IE */
+    -moz-opacity:0.6; /* Mozilla */
+    opacity: 0.6; /* CSS3 */
+	width: 100%;
+	height: 100%;
+	z-index: 1500;
+}
+#createDate{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 14px;
+	width: 100%;
+	height: 100%;
+	z-index: 1501;
+}
+#createDateCont{
+	z-index: 2001;
+	position: relative;
+	top: 8em;
+	left:0;
+	width: 30em;
+	height: 33em;
+	border: 2px solid #999999;
+	/*background-color: #e6e6e6;*/
+	background-color: #F5F5F5;
+	text-align: left;
+}
+#cdDrops{
+	position: relative;
+	font-size: 12px;
+	top: 3em;
+	left: 11em;
+	width: 350px;
+	height: 340px;
+}
+.cdRowDate{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.cdRowStartTime{
+	position: absolute;
+	top: 3em;
+	left:0;
+}
+.cdRowStopTime{
+	position: absolute;
+	top: 6.5em;
+	left:0;
+}
+.cdRowName{
+	position: absolute;
+	top: 9.8em;
+	left:0;
+}
+.cdRowFB{
+	position: absolute;
+	top: 13.3em;
+	left:0;
+}
+.cdRowDozent{
+	position: absolute;
+	top: 16.5em;
+	left: 0;
+}
+.cdRowTeil{
+	position: absolute;
+	top: 19.7em;
+	left:0;
+}
+#cdText{
+	position: absolute;
+	top: 3em;
+	left: 2em;
+}
+#cdDate{
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+#cdTeil{
+	text-align: right;
+	width: 50px;
+}
+.textName,
+.textEnd,
+.textStart,
+.textFB,
+.textDozent,
+.textTeil{
+	position: absolute;
+	left:0;
+}
+.textStart{top: 2.5em;}
+.textEnd{top: 5.45em;}
+.textName{top: 8.3em;}
+.textFB{top: 11.2em;}
+.textDozent{top: 14em;}
+.textTeil{top:16.6em;}
+
+.dropDown_dateName,
+.dropDown_cdMinStart,
+.dropDown_cdHourStart,
+.dropDown_cdMinStop,
+.dropDown_cdHourStop,
+.dropDown_cdFB,
+.dropDown_cdDozent{
+	font-size: 12px !important;
+}
+#BelegungsComment{
+	position: absolute;
+	top: 25.5em;
+	left: 2.1em;
+	width: 350px;
+	height: 100px;
+	font-size: 12px;
+}
+#WinBorder{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	background-color: rgb(51, 51, 51);
+}
+#WinHeadText{
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+	top: 0.3em;
+	left: 0.8em;
+}

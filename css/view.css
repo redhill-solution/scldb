@@ -1,0 +1,665 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#info_box {
+	font-size: 14px;
+	background-color:#F5F5F5;
+	width: 60em;
+	height: 52.5em;
+	position:relative;
+	top: 0.9em;
+	left: 0em;
+	text-align:left;
+}*/
+div.ui-datepicker{
+ font-size:12px;
+}
+/*-----------TOOL BOX------------------*/
+/*#toolBox {
+	border: 1px solid #000000;
+	font-size: 14px;
+	background-color:#333333;
+	width: 100%;
+	height: 2.05em;
+	position:relative;
+	top: 0;
+	left:0;
+	z-index: 5001;
+}*/
+#backArrow{
+	background-image:url(../images/icons/go-previous-3.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#backArrowPos {
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 0.8em;
+}
+
+#saveIcon{
+	background-image:url(../images/icons/dialog-ok-3.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#saveIconPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 4em;;
+}
+#deleteIcon {
+	background-image: url(../images/icons/edit-delete-2.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float: left;
+}
+
+#deleteIconPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 7.2em;;
+}
+#prevID {
+	background-image: url(../images/icons/arrow-left-double-2.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float: left;
+}
+
+#prevIDPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	right: 7.5em;
+	;
+}
+#nextID{
+	background-image: url(../images/icons/arrow-right-double-2.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#nextIDPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	right: 0.8em;;
+}
+#searchIDPos{
+	font-size: 12px;
+	position: absolute;
+	top: 0.13em;
+	right: 3.6em;;
+}
+#horLine1{
+	font-size: 12px;
+	background-image: url(../images/icons/line-horizontal-gray.png);
+	background-size: 0.5em 2em;
+	width: 0.5em;
+	height: 2em;
+	position: absolute;
+	top: 0.2em;
+	left: 12em;;
+}
+#EditorIconPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 11.8em;
+}
+#EditorIcon{
+	background-image: url(../images/icons/edit-4.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#EditorTextField{
+	font-size: 14px;
+	padding: 0.3em;
+	position: absolute;
+	top: 9em;
+	left: 12em;
+	width: 35em;
+	height: 20em;
+	z-index: 50;
+	border: 2px solid #4B4B4B;
+	border-radius: 4px 4px 4px 4px;
+}
+#EditorTextField:hover {
+	border: 2px solid #FFD61B;
+}
+/*--------------------------------------*/	
+/*#mainBlock{
+	border: 1px solid #000000;
+	width: 60em;
+	height: 50.35em;
+	position:relative;
+	left:0;
+	top:0em;
+	font-size: 14px;
+}*/
+/*-----------LEFT BOX------------------*/
+#leftBox{
+	font-size: 12px;
+	background-color:#F5F5F5;
+	width: 30em;
+	height: 58.7em;
+	float:left;
+}
+.caps{
+	list-style:none;
+	padding:0.2em 1.25em;
+	margin:0;
+}
+.sub_caps {
+        color: #4B4B4B;
+	width: 9em;
+	height: 100%;
+	list-style:circle;
+	padding:0.0em 1.25em;
+	margin-left:3em;
+}
+.list_elmnts {
+	padding:0.8em 0em;
+}
+.list_elmnts2 {
+	padding:0em 0em;
+}
+/*-----DropDown------
+.dropDown_dayDate {
+	font-size: 12px !important;
+	width: 75px !important;
+}
+.dropDown_monthDate {
+	font-size: 12px !important;
+	width: 130px !important;
+}
+.dropDown_yearDate {
+	font-size: 12px !important;
+	width: 85px !important;
+}*/
+#spanSpace {
+	padding-left: 0.8em;
+}
+.date{
+	font-size: 16px;
+	font-weight: bold;
+	color: #4B4B4B;
+	border: 1px;
+	border-style: solid;
+	border-color:#FFFFFF;
+	background-color: #FAFAFA;
+	width: 70%; 
+	text-align: center;
+}
+.date:hover{
+	font-size: 16px;
+	font-weight: bold;
+	color: #4B4B4B;
+	border: 1px;
+	border-style: solid;
+	border-color:#FFD61B;
+	background-color: #FAFAFA;
+	width: 70%; 
+	text-align: center;
+}
+
+.dropDown_hourMenu_strt,
+.dropDown_minuteMenu_strt,
+.dropDown_hourMenu_stop,
+.dropDown_minuteMenu_stop,
+.dropDown_klausur_name,
+.dropDown_fachbereich,
+.dropDown_dozent,
+.dropDown_ansprch_fb,
+.dropDown_scl_betreuer,
+.dropDown_SingleDozent,
+.dropDown_StartTimeHour,
+.dropDown_StartTimeMin,
+.dropDown_EndTimeHour,
+.dropDown_EndTimeMin,
+.dropDown_SCLBetreuer,
+.dropDown_SCLBetreuer2,
+.dropDown_Klausuraufsicht,
+.dropDown_Klausuraufsicht2,
+.dropDown_searchID,
+.dropDown_ProbsHour,
+.dropDown_ProbsMin,
+.dropDown_ProbsID,
+.dropDown_ProbsBereich{
+	font-size: 12px !important;
+}
+.dropDown_hourMenu_strt,
+.dropDown_minuteMenu_strt,
+.dropDown_hourMenu_stop,
+.dropDown_minuteMenu_stop,
+.dropDown_StartTimeHour,
+.dropDown_StartTimeMin,
+.dropDown_EndTimeHour,
+.dropDown_EndTimeMin,
+.dropDown_ProbsHour,
+.dropDown_ProbsMin {
+	width: 75px !important;
+}
+/*-----------------*/
+#teilnehmer{
+	margin-left: 2.35em;
+	text-align:right;
+}
+#anlagen{
+	margin-top: 1.2em;	
+}
+#id{
+	margin-top: -0.2em;
+	font-weight:bold;
+	text-align: center;
+	margin-left: 3.22em;
+	float: left;
+}
+#idText{
+	margin-top: -0.2em;
+	float: left;
+}
+#commentField{
+	width: 99%;
+	height: 6em;
+	font-size: 12px;
+}
+/*-----------RIGHT BOX------------------*/
+#rightBox{
+	font-size: 14px;
+	background-color:#FFFFFF;
+	width: 34em;
+	height: 50.37em;
+	float:right;
+	border-left: thin solid #4B4B4B;
+}
+#tabs{
+	font-size: 14px;
+	width: 100%;
+	height: 3em;
+}
+#mainWin{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 47.37em;
+}
+#SingleTabsBox{
+    font-size: 14px;
+    position: absolute;
+    top: 0.1em;
+    left: 0;
+    width: 100%;
+    height: 2em;
+    background-color: #F5F5F5;
+    z-index: 30;
+}
+.closeTabActive{
+	float: right;
+	background-image:url(../images/icons/emblem-unreadable-dark.png);
+	background-size: 1em 1em;
+	width: 1em;
+	height: 1em;
+	z-index: 5;
+	border-radius: 2px;
+}
+.closeTabNotActive{
+	float: right;
+	background-image:url(../images/icons/emblem-unreadable.png);
+	background-size: 1em 1em;
+	width: 1em;
+	height: 1em;
+	z-index: 5;
+	border-radius: 2px;
+}
+.SingleTabs{
+	float: left;
+    font-size:14px; 
+    height: 90%; 
+    width: 100%;
+    background-color: #4B4B4B; 
+    color: #FFFFFF; 
+    margin-top: 0.2em; 
+    margin-left: 0.2em;
+    border: thin solid #4B4B4B;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.SingleTabs:hover, .SingleTabs:hover .SingleTabsNotActive, .SingleTabPlus:hover {
+	background: #4B4B4B url(../modules/jquery/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+	color: #000000; 
+}
+.SingleTabs:hover .closeTabNotActive{
+	background-image: url(../images/icons/emblem-unreadable-dark.png)
+}
+.closeTabActive:hover, .SingleTabs:hover .closeTabNotActive:hover{
+	background-image: url(../images/icons/emblem-unreadable-dark-select.png)
+}
+
+.SingleTabsNotActive{
+	float: left;
+	color: #FFFFFF;
+}
+.SingleTabsActive {
+	 float: left; 
+	 color: #000000;
+}
+.SingelTabContent{
+	font-size: 14px;
+	position: relative;
+	top: -1px;
+	left: 0;
+    height: 99%;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top: thin solid #4B4B4B;
+}
+.SingleTabBottom{
+	position: absolute;
+    top: 2.13em;
+    left: 0em;
+    height: 45.30em;
+    width: 100%;
+    background: none;
+    z-index: 20;
+}
+.SingleTabPlus {
+	float: left;
+	font-size:14px; 
+	height: 90%; 
+	background-color: #4B4B4B; 
+	color: #FFFFFF;  
+	width: 1.8em; 
+    margin: 0.2em 0.2em;
+    border: thin solid #4B4B4B;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#TCList{
+	background-color:#CCCCCC;
+	height:2.3em;
+	width: 9em;
+	float: left;
+	border: thin solid #4B4B4B;
+	border-bottom: none;
+	margin: 0.62em 0.2em;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.TCList_text{
+	position:relative;
+	top: 0.5em;
+	left: 0.5em;
+	/*text-decoration: underline;*/
+}
+#QMan{
+	background-color: #CCCCCC;
+	height:2.3em;
+	width: 11em;
+	float: left;
+	border: thin solid #4B4B4B;
+	border-bottom: none;
+	margin: 0.62em 0.1em;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.QMan_text{
+	position:relative;
+	top: 0.5em;
+	left: 0.5em;
+	/*text-decoration: underline;*/
+}
+#EinTer{
+	background-color:#CCCCCC;
+	height:2.3em;
+	width: 6.6em;
+	float: left;
+	border: thin solid #4B4B4B;
+	border-bottom: none;
+	margin: 0.62em 0.1em;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.EinTer_text{
+	position:relative;
+	top: 0.5em;
+	left: 0.5em;
+	/*text-decoration: underline;*/
+}
+#Probs{
+	background-color:#CCCCCC;
+	height:2.3em;
+	width: 5.6em;
+	float: left;
+	border: thin solid #4B4B4B;
+	border-bottom: none;
+	margin: 0.62em 0.1em;
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.Probs_text{
+	position:relative;
+	top: 0.5em;
+	left: 0.5em;
+	/*text-decoration: underline;*/
+}
+#TCList:hover, #QMan:hover, #EinTer:hover, #Probs:hover {
+	background: #4B4B4B url(../modules/jquery/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;
+}
+#space{
+	background-color:#F5F5F5;
+	height: 100%;
+	width: 100%;
+	border-bottom: thin solid #4B4B4B;
+}
+#terminMain{
+	font-size: 12px;
+	position: relative;
+	left: 3em;
+	top: 0.5em;
+}
+.terminTable{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 35em;
+	height: 98%;
+}
+.tbl_name{
+	width: 23em;
+}
+.tbl_date{
+	width: 7.5em;
+}
+.picker{
+	width: 6em; 
+	text-align: center;
+}
+.terminTable_tr{
+	font-size: 12px;
+	height: 2.5em;
+}
+#CPQS_head{
+	padding: 0.5em 0.5em;
+	font-weight: bold;
+}
+#QualitätMain{
+	width: 90%;
+	height: 90%;
+	position: absolute;
+	left: 1.5em;
+	top: 1.5em;
+}
+.qTable{
+	font-size: 12px;
+	padding-left: 1em;
+	border: none;
+}
+#comment_QS{
+	position:relative;
+	left: 0;
+	top: 0.5em;
+	width: 99%;
+	height: 8em;
+	font-size: 12px;
+}
+.SingleTable{
+	font-size: 12px;
+	position: relative;
+	top: 0.5em;
+	left: 3em;
+}
+.SingleTableName{
+	width: 12em;
+}
+.SingleTableDates{
+	font-size: 12px;
+}
+.SingleID{
+	font-weight: bold;
+}
+.SingleNumbField{
+	width: 4em;
+	text-align:right;
+}
+.SingleTableTR{
+	height: 2.5em;
+}
+.SingleError{
+	padding-left: 2em;
+	width: 8em;
+	color: #DF0000;
+	font-weight: bold;
+}
+.prevSingleTab{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #4B4B4B;
+}
+.nextSingleTab{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #4B4B4B;	
+}
+#SingleNavLeftSpace{
+	float:left;
+	top: 0;
+	left: 0;
+	width: 3em;
+	height: 98%;
+	background-color: #AB3B3A;
+}
+/*
+#SingleDate{
+	font-weight: bold;
+	width: 15em;
+	text-align:center;
+	background-color: #FAFAFA;
+	border: 1px;
+	border-style: solid;
+	border-color:#FFFFFF;
+}
+#SingleDate:hover{
+	font-weight: bold;
+	color: #4B4B4B;
+	border: 1px;
+	border-style: solid;
+	border-color:#FFD61B;
+}*/
+/*-----------TABS---------------------*/
+#TCListTab{
+	position:relative;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+#QManTab{
+	position:relative;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+#EinTerTab{
+	position:relative;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+#ProbsTab{
+	position:relative;
+	top:0em;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+#ProbsContent{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.ProbsComment {
+	font-size: 12px;
+	width: 22em;
+	height: 5em;
+}
+/*-----------MSG BOX------------------*/
+/*
+#msgBox {
+	width: 100%;
+	height: 100%;	
+	position:fixed;
+}
+#msgBox_main {
+	background-color:#FF0000;
+	width: 25em;
+	height: 8em;	
+	position: relative;
+	z-index: 2000;
+	top: 50%;
+	left: 50%;
+	margin: -8em -15em;
+}
+#msgText {
+	width: 100%;
+	height: 70%;
+	background-color:#00CC99;
+	position: relative:
+	top: 50%;
+	left: 50%;
+}
+#msgTextPos{
+	text-align:center;
+	background-color:#CC9933;
+	position: relative;
+	top: 20%;
+	left: 0;
+}*/

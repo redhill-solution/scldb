@@ -1,0 +1,237 @@
+/*#info_box {
+	font-size: 14px;
+	background-color:#F5F5F5;
+	width: 60em;
+	height: 52.5em;
+	position:relative;
+	top: 0.9em;
+	left: 0em;
+	text-align:left;
+}
+*/
+/*-----------TOOL BOX------------------*/
+/*#toolBox {
+	border: 1px solid #333333;
+	font-size: 14px;
+	background-color:#333333;
+	width: 100%;
+	height: 2.1em;
+	position:relative;
+	top: 0;
+	left:0;
+	z-index: 5001;
+}*/
+#newContact{
+	background-image: url(../images/icons/edit-add-2.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#newContactPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 1.2em;
+}
+/*
+#print{
+	background-image: url(../images/icons/printer-7.png);
+	background-size: 2em 2em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#printPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 3.6em;
+}*/
+
+#toPDF{
+	background-image: url(../images/icons/document-save-2.png);
+	background-size: 2em 2em;
+	background-position: 0 0.12em;
+	width: 2em;
+	height: 2em;
+	float:left;
+}
+#toPDFPos{
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	top: 0;
+	left: 4.4em;
+}
+/*--------------------------------------*/
+/*#mainBlock{
+	border: 1px solid #000000;
+	background-color:#F5F5F5;
+	width: 60em;
+	min-height: 50.35em;
+	font-size: 14px;
+	position:relative;
+	left:0;
+	top:0;
+}*/
+#Table{
+	border-collapse:collapse;
+	font-size: 12px;
+	position: relative;
+	top: 0em;
+	left: 0em;
+}
+.TableTR,
+.TableTRAdd,
+.TableTRLight,
+.TableTRLightNC{
+	background: #F5F5F5;
+	height: 1.8em;
+}
+.TableTRDark,
+.TableTRDarkNC{
+	background: #E1E1E1;
+	height: 1.8em;
+}
+.TableTRLight:hover,
+.TableTRDark:hover,
+.TableTRLight:hover a,
+.TableTRDark:hover a{
+	cursor:pointer;
+	background: #6B6B6B;
+	color: #FFFFFF;
+}
+.TableTRLightNC:hover,
+.TableTRDarkNC:hover,
+.TableTRLightNC:hover a,
+.TableTRDarkNC:hover a {
+	cursor: default;
+}
+.TableHeadings{
+	border-bottom:thin solid #000000;
+	height: 3em;
+}
+.TableHeadings a:hover{
+	background: #6B6B6B;
+	color: #FFFFFF;
+}
+.TableHeadings a{
+	font-weight: bold;
+}
+.TableID{
+	width: 5em;
+}
+.TableTitel {
+	width: 6em;
+}
+.TableLastName,
+.TableSurname{
+	width: 12em;
+}
+.TableLicense{
+	width: 14em;
+}
+.TableFB {
+	width: 8.5em;
+}
+.TableIDData{
+	text-align: left;
+}
+.TableTRAdd{
+	border-top:thin solid #000000;
+}
+#horLine1{
+	font-size: 12px;
+	background-image: url(../images/icons/line-horizontal-gray.png);
+	background-size: 0.5em 2em;
+	width: 0.5em;
+	height: 2em;
+	position: absolute;
+	top: 0.2em;
+	left: 9em;;
+}
+#showLic{
+	height: 2em;
+	width: 11.3em;
+	position: absolute;
+	top: 0.25em;
+	left: 11em;
+	font-size: 12px;
+	color: #000;
+	background-color: #D1D1D1;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#showLic:hover{
+	background-color: #b1b1b1;
+}
+#showCheck{
+	float: left;
+}
+#showText{
+	position: relative;
+	top: 0.27em;
+	left: 0;
+}
+#uploadBack {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	background: #000;
+	filter:alpha(opacity=60); /* IE */
+    -moz-opacity:0.6; /* Mozilla */
+    opacity: 0.6; /* CSS3 */
+    z-index: 15;
+}
+#uploadForm {
+	position: absolute;
+	top: 12em;
+	background-color: #F5F5F5;
+	border: thin solid #000;
+	font-size: 12px;
+	z-index: 16;
+	width: 450px;
+	height: 150px;
+	border: 2px solid #999999;
+}
+#WinBorder{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2em;
+	background-color: rgb(51, 51, 51);
+	text-align: left;
+}
+#WinHeadText{
+	color: #FFFFFF;
+	font-weight: bold;
+	position: relative;
+	top: 0.3em;
+	left: 0.8em;
+}
+#control{
+	position: absolute;
+	bottom: 1em;
+	left:0em;
+	width: 100%;
+
+}
+#uploadCenter{
+	position: absolute;
+	top: 5em;
+	left: 0;
+	width: 100%;
+}
+#borderImport{
+	position: relative;
+	top: 1.4em;
+	width: 80%;
+	height: 60px;
+	border: thin dashed #000;
+}

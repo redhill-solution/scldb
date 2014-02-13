@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+*{font-family:Helvetica;}
+
+#grayed_back {
+	width: 100%;
+	height: 100%;
+	background-color:#333;
+	/*overflow: auto;*/
+	position:relative;
+	z-index: 1000; 
+	top: 0em; 
+	left: 0em;
+}
+body{
+	overflow: auto;
+	background-color:#333;
+}
+#create_date {
+	border:medium dashed #666666;
+	background-color:#FFFFFF;
+	width: 30em;
+    height: 38em;
+	/*z-index: 1002;*/
+	position: absolute;
+    top: 15%;
+    left: 35%;
+    /*margin-left: -15em; 
+    margin-top: -19em;*/ 
+}
+#box_header {
+	text-align: center;	
+	padding: 0.2em 0em;
+}
+#insert_box {
+	position: relative;
+	top: 0em;
+	left: 0.2em;
+}
+.caps {
+	list-style:none;
+	padding:0.2em 1.25em;
+	margin:0;
+}
+.list_elmnts {
+	padding:0.28em 0em;
+}
+.list_elmnts2 {
+	padding:0em 0em;
+}
+.sub_caps {
+	width: 9em;
+	height: 100%;
+	list-style:circle;
+	padding:0.0em 1.25em;
+	margin-left:3em;
+}
+#control_button {
+	position: absolute;
+	bottom: 0.5em;
+	left: 50%;
+	margin-left: -5.6em;
+}
+#dayDate{
+	margin-left: 1em;	
+}
+
+#hourMenu_strt{
+	margin-left:2.3em;
+}
+#hourMenu_stop{
+	margin-left:2.8em;
+	margin-bottom: 1.5em;	
+}
+#klausur_name{
+	width: 99%;
+	float:right;
+	margin-bottom: 1em;	
+}
+#dozent{
+	width: 50%;
+	float:right;
+	
+}
+#ansprch_fb{
+	width: 50%;
+	float:right;
+}
+#scl_betreuer{
+	width: 49%;
+	float:right;
+}
+#teilnehmer{
+	float:right;
+	padding-left: 0em;
+	text-align:right;
+}
+#anlagen{
+	margin-top: 1.2em;	
+}
+#fachbereich{
+	width: 100%;
+	float:right;
+	margin-bottom: 1em;	
+}

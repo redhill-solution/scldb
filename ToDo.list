@@ -1,0 +1,18 @@
+Calendar {
+	Edit.php {
+		- Speicher leerfelder mit "" anstatt mit NULL in DB
+		- Termin Löschen Funktion fehlt
+		- Sicherheitsfragen vor Aktionen
+		- Uhrzeiten und Daten prüfen vor Speicherung
+		- Sortierung des ID-Durchlaufs falsch
+		- ID-Durchlauf soll Namen/Daten anstatt IDs anzeigen
+	}
+	CreateDate {
+		- Dozenten werden nicht vorgeschlagen
+	}
+}
+Authors {
+	list.php {
+		- Suchfunktion für Autoren
+	}
+}

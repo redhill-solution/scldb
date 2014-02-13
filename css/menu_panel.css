@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+#menu_panel {
+	font-size:14px;
+	width: 9.375em;
+	float:left;
+	position:relative;
+	top: 1em;
+	left: 0.5em;
+}
+#navigation {
+	font-size:14px;
+	width: 9.375em;
+	position:relative;
+	z-index: 0;
+	top: 0em;
+	left: 0em;
+}
+#settings {
+	font-size:14px;
+	width: 9.375em;
+	position:relative;
+	z-index: 0;
+	top: 1em;
+	left: 0em;
+}
+#navi_head {
+	font-size:14px;
+	font-weight: bold;
+	background:#333333;
+	color:#FFFFFF;
+	border-color:#333;
+	border-width:thin;
+	border-style:solid;
+	height: 1.875em;
+	width: 9.175em; /*9.375*/
+	position: absoulte;
+	z-index: 1;
+	top: 0em;
+	left: 0em;
+	padding-left: 0.2em;
+}
+#navi_bottom {
+	font-size:14px;
+	border-color:#999;
+	border-style:solid;
+	border-width:thin;
+	width: 9.375em;
+	position: relative;
+	z-index: 1;
+	top: 0.2em;
+	left: 0em;
+}
+#settings_head {
+	font-size:14px;
+	font-weight: bold;
+	background:#333333;
+	color:#FFFFFF;
+	border-color:#333;
+	border-width:thin;
+	border-style:solid;
+	height: 1.875em;
+	width: 9.175em; /*9.375*/
+	position: absoulte;
+	top: 0em;
+	left: 0em;
+	padding-left: 0.2em;
+}
+#settings_bottom {
+	font-size:14px;
+	border-color:#999;
+	border-style:solid;
+	border-width:thin;
+	width: 9.375em;
+	position: relative;
+	top: 0.2em;
+	left: 0em;
+}
+.nav_list {
+	font-size:14px;
+	width: 6.8em;
+	list-style:square;
+	padding:0.2em 1.25em;
+	margin:0;
+}
+.sub_menu {
+	font-size:14px;
+	width: 6.4em;
+	font-size: 0.9em;
+	list-style:circle;
+	padding:0.125em 1.25em;
+	margin:0;
+}
+.start_button {
+	font-size:14px;
+	color:#0099FF;
+}
